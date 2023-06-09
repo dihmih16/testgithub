@@ -8,6 +8,7 @@ var uploader =  multer({dest: './tmp'});
 
 // list sp
 router.get('/', spCtrl.list );
+router.get('/', spCtrl.list );
 
 router.get('/add', spCtrl.add);
 // upload file:
